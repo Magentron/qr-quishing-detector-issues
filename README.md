@@ -45,15 +45,25 @@ The more of this you can give, the faster a problem can be reproduced:
 5. **A screenshot** if it helps. Check it first for anything private.
 
 For a wrong risk rating, add the result screen and the web address if it is
-safe to share. See the next section.
+safe to share. See "Keep private things out" below.
+
+## Test codes
+
+The [`manual-test/`](manual-test/README.md) directory holds QR codes and other
+barcodes for checking the app by hand, with an `INDEX.md` for each set that
+says what every image is expected to show. Its `README.md` says how to use
+them. If the app shows something different, open an issue as described above,
+naming the file and the settings you used.
 
 ## Keep private things out
 
 **Everything in an issue is public**, and it stays public even if you edit or
 delete it later.
 
-- The app collects nothing and keeps no history of what you scan, so the
-  developer knows only what you write here.
+- The app collects nothing, and its optional result history, when you turn
+  it on, is stored on your device and is never sent to the developer, so the
+  developer knows only what you write here. Do not paste an entry from it
+  that holds something private, such as a Wi-Fi password.
 - Do not post a code or a web address that carries a personal link, an
   account, a token, a password, a payment detail or a private document.
 - If an address matters to the report but should not be clicked by a reader,
